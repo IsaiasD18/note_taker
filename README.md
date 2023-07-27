@@ -3,7 +3,34 @@
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  Everytime when creating an open source project on GitHub, it’s important to have a README for the app. This is a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. This allows to quickly and easily create a README file by using a command-line application to generate one. It also helps the project creator to devote more time to working on the project. This README should include what the app is for, how to use the app, how to install it, how to report issues, who are the contributors and a way to comunicate with the developer regarding any problem or question.
+
+  ## User Story
+
+```
+AS A small business owner
+I WANT to be able to write and save notes
+SO THAT I can organize my thoughts and keep track of tasks I need to complete
+```
+
+
+## Acceptance Criteria
+
+```
+GIVEN a note-taking application
+WHEN I open the Note Taker
+THEN I am presented with a landing page with a link to a notes page
+WHEN I click on the link to the notes page
+THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
+WHEN I enter a new note title and the note’s text
+THEN a Save icon appears in the navigation at the top of the page
+WHEN I click on the Save icon
+THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
+WHEN I click on an existing note in the list in the left-hand column
+THEN that note appears in the right-hand column
+WHEN I click on the Write icon in the navigation at the top of the page
+THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+```
+
 
   ## Table of Contents
   - [Installation](#installation)
@@ -12,14 +39,13 @@
 
   ## Installation
   This is the link to the repository:
-  https://github.com/IsaiasD18/README_Generator
+  https://github.com/IsaiasD18/first_portfolio
   
   The only requirements are to have the files in your local storage and have the inquirer installed.  
 
   ## Usage
-  You need to run the code node ./index.js in your console. 
-  Then you'll be prompted for information about your application repository.
-  This is how the final product should look like. ![readme](./images/readme.png)
+  You'll just need to go to the deployed app: https://fathomless-tor-21703-be2c118d2f67.herokuapp.com/notes
+  This is how the final product should look like. ![readme](./images/app.jpeg)
 
   ## Credits
   N/A
