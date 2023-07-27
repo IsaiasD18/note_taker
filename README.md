@@ -39,7 +39,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
   ## Installation
   This is the link to the repository:
-  https://github.com/IsaiasD18/first_portfolio
+  https://github.com/IsaiasD18/note_taker
   
   The only requirements are to have the files in your local storage and have the inquirer installed.  
 
